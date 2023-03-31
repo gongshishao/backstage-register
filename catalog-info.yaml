@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: template-api
+  name: template-api2
   description: The API template
   tags:
     - demo
