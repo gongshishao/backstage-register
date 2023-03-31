@@ -12,4 +12,4 @@ spec:
   owner: dx-team
   system: demoproject
   definition:
-    $ref: "./api.yaml"
+    $json: ./api.yaml
