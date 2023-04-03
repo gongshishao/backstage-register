@@ -1,7 +1,19 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "backstage-register"
+#   annotations:
+#   jenkins.io/job-full-name: backstage-demo/pipeline-scm
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
+---
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: template-api3
+  name: backstage-register-api
   description: The API template
   tags:
     - demo
