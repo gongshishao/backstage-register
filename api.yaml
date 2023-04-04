@@ -3,7 +3,7 @@ openapi: 3.0.1
 servers:
   - url: https://api.spotify.com/v1
 info:
-  title: Spotify Web API V2
+  title: Spotify Web API V3
   version: 2021.4.2
   x-apisguru-categories:
     - media
